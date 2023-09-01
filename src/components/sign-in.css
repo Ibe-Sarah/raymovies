@@ -1,0 +1,133 @@
+.header{
+    color: #091e42;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Clash Grotesk', sans-serif;
+}
+
+.navy{
+    color: #091e42;
+}
+
+.bg-navy{
+    background-color: #091e42;
+}
+.archivo{
+    font-family: 'Archivo', sans-serif;
+}
+
+.movie{
+    font-size: 4em;
+    color: #091e42;
+    /* border: 2px solid black; */
+}
+
+
+.field{
+width: 100%;
+border-radius: 4px;
+margin-top: 2em;
+padding-top: 0.7em;
+padding-bottom: 0.7em;
+}
+
+.field:focus{
+    border-color: #091e42;
+    outline: none;
+}
+.icon {
+    position: absolute;
+    right: 35%;
+    top: 60%;
+    cursor: pointer;
+     z-index: 1;/* To help the icon e visible the input is on focus */
+  }
+
+  @media only screen and (min-width: 1566px) {
+    .icon{
+        right: 41%;
+        top: 56%;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .icon{
+        right: 17%;
+        top: 59%;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    input:focus +  span {
+        right: 17%;
+        top: 63% !important;
+        position: absolute;
+        /* font-size: 5em; */
+      }
+  }
+
+  
+  @media only screen and (max-width: 991px) {
+    .iconslash{
+        right: 17%;
+        top: 59%;
+    }
+  }
+
+  /* 660px */
+
+  @media only screen and (max-width: 600px) {
+    .icon{
+        right: 17%;
+        top: 58%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    input:focus +  span {
+        right: 17%;
+        top: 61% !important;
+        position: absolute;
+        /* font-size: 5em; */
+      }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .iconslash{
+        right: 17%;
+        top: 58%;
+    }
+  }
+
+/* 350px */
+
+  @media only screen and (max-width: 350px) {
+    .icon{
+        right: 17%;
+        top: 78.3%;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    input:focus +  span {
+        right: 17%;
+        top: 78.3% !important;
+        position: absolute;
+        /* font-size: 5em; */
+      }
+  }
+
+  
+  @media only screen and (max-width: 350px) {
+    .iconslash{
+        right: 17%;
+        top: 63%;
+    }
+  }
+
+
+
+
+
+
