@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/raymovies/static/css/main.6fbcd643.css",
+    "main.js": "/raymovies/static/js/main.ab3e1b2a.js",
+    "static/js/787.7c42db31.chunk.js": "/raymovies/static/js/787.7c42db31.chunk.js",
+    "static/media/logo.svg": "/raymovies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/raymovies/index.html",
+    "main.6fbcd643.css.map": "/raymovies/static/css/main.6fbcd643.css.map",
+    "main.ab3e1b2a.js.map": "/raymovies/static/js/main.ab3e1b2a.js.map",
+    "787.7c42db31.chunk.js.map": "/raymovies/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fbcd643.css",
+    "static/js/main.ab3e1b2a.js"
+  ]
+}
