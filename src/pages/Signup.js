@@ -8,7 +8,7 @@ export default function SignupPage(){
               heading="Welcome to Raymovies"
               paragraph="Already have an account? "
               linkName="Login"
-              linkUrl="/"
+              linkUrl="/raymovies"
             />
             <Signup/>
         </>

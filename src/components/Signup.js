@@ -25,7 +25,7 @@ const Signup = () => {
             // Signed in
             const user = userCredential.user;
             alert('Account Created- Login to continue');
-            navigate("/")
+            navigate("/raymovies")
             window.localStorage.setItem('emailForSignIn', email);
 
             // ...
@@ -61,10 +61,11 @@ const Signup = () => {
                             />
                         </div>
 
-                        <div>
+                        <div className=''>
                             <label htmlFor="password" className='archivo'>
-                              
                             </label>
+
+                            <div className='relative'>
                             <input className='rounded-md appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm mt-6 '
                               style={{ zIndex: 0 }}
                                 type={passwordVisible ? 'text' : 'password'}
@@ -74,9 +75,12 @@ const Signup = () => {
                                 required                                 
                                 placeholder="Password"              
                             />
-                            <span  onClick={togglePasswordVisibility}>
-                            {passwordVisible ? <FaEyeSlash className='icon iconslash' /> : <FaEye className='icon'/>}
+
+                            <span  onClick={togglePasswordVisibility} className='icon'>
+                            {passwordVisible ? <FaEyeSlash className='' /> : <FaEye className=''/>}
                             </span>
+                            </div>
+                            
                         </div>                                             
                         
                         <button className='bg-navy field text-white archivo'

@@ -4,6 +4,7 @@ import app, { auth } from './firebase';
 import { NavLink, useNavigate } from 'react-router-dom'
 import { getAuth, sendEmailVerification } from "firebase/auth";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+
  
 const Login = () => {
     const navigate = useNavigate();
@@ -59,10 +60,12 @@ const Login = () => {
                                 />
                             </div>
 
-                            <div className='flex'>
+                            <div className=''>
                                 <label htmlFor="password">
-                                  
-                                </label>
+                               </label>
+
+
+                                <div className='relative'>
                                 <input className='rounded-md  appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm mt-6'
                                    style={{ zIndex: 0 }}
                                    type={passwordVisible ? 'text' : 'password'}
@@ -72,9 +75,11 @@ const Login = () => {
                                     onChange={(e)=>setPassword(e.target.value)}
                                 />
 
-                            <span  onClick={togglePasswordVisibility}>
-                            {passwordVisible ? <FaEyeSlash className='icon iconslash' /> : <FaEye className='icon'/>}
+                            <span  onClick={togglePasswordVisibility} className='icon'>
+                            {passwordVisible ? <FaEyeSlash className='' /> : <FaEye className=''/>}
                             </span>
+
+                            </div>
                             </div>
                                                 
                             <div>
