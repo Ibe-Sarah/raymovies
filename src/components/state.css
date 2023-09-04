@@ -1,0 +1,21 @@
+img{
+    max-width: 100vw !important;
+    /* height: 170px !important; */
+    width: 20vw !important;
+}
+body {
+	/* background: #091e42; */
+	color: #ffffff;
+}
+
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+
+.search{
+    gap: 5em;
+    /* padding-bottom: 1em; */
+    padding-top: 1em;
+}

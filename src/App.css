@@ -17,26 +17,43 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.black{
+  background-color: black;
+  padding: 1em 2em;
+  /* color: white; */
+}
+.white{
+  color: black;
+}
+.text{
+  color: white!important;
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 7;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
 }
