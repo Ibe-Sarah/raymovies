@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/raymovies/static/css/main.3d7d7f46.css",
-    "main.js": "/raymovies/static/js/main.96b6739c.js",
+    "main.css": "/raymovies/static/css/main.c56097f0.css",
+    "main.js": "/raymovies/static/js/main.fe3646b4.js",
     "static/js/787.7c42db31.chunk.js": "/raymovies/static/js/787.7c42db31.chunk.js",
     "static/media/logo.svg": "/raymovies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/raymovies/index.html",
-    "main.3d7d7f46.css.map": "/raymovies/static/css/main.3d7d7f46.css.map",
-    "main.96b6739c.js.map": "/raymovies/static/js/main.96b6739c.js.map",
+    "main.c56097f0.css.map": "/raymovies/static/css/main.c56097f0.css.map",
+    "main.fe3646b4.js.map": "/raymovies/static/js/main.fe3646b4.js.map",
     "787.7c42db31.chunk.js.map": "/raymovies/static/js/787.7c42db31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d7d7f46.css",
-    "static/js/main.96b6739c.js"
+    "static/css/main.c56097f0.css",
+    "static/js/main.fe3646b4.js"
   ]
 }
