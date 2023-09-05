@@ -50,7 +50,9 @@ body {
         right: 45%;
         top: 17%;
     }
-
+    .movie-app{
+       height: 100vh;
+      }
     
 }
 
