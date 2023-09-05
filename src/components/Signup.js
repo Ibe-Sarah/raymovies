@@ -46,20 +46,20 @@ const Signup = () => {
         <section>
             <div>
                 <div>                                                                                            
-                    <form className=' justify-center'>                                                                                            
-                        <div className='archivo flex gap-8  '>
-                            <label htmlFor="email-address" className='archivo'> 
-                              
-                            </label>
-                            <input className='rounded-md appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm'
-                                type="email"
-                                label="Email address"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}  
-                                required                                    
-                                placeholder="Email address"                                
-                            />
-                        </div>
+                    <form className=' '>                                                                                            
+                    <div className=''>
+                                <label htmlFor="email-address">
+                           
+                                </label>
+                                <input className='rounded-md appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm '
+                                    id="email-address"
+                                    name="email"
+                                    type="email"                                    
+                                    required                                                                                
+                                    placeholder="Email address"
+                                    onChange={(e)=>setEmail(e.target.value)}
+                                />
+                            </div>
 
                         <div className=''>
                             <label htmlFor="password" className='archivo'>

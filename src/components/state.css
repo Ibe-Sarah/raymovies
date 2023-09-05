@@ -1,6 +1,6 @@
 img{
     max-width: 100vw !important;
-    /* height: 170px !important; */
+    /* height: 100vh !important; */
     width: 20vw !important;
 }
 body {
@@ -11,6 +11,11 @@ body {
 .movie-app > .row {
 	overflow-x: auto;
 	flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+.movie-app{
+    /* margin-top: 5em; */
+    /* height: 100%; */
 }
 
 
@@ -18,4 +23,79 @@ body {
     gap: 5em;
     /* padding-bottom: 1em; */
     padding-top: 1em;
+}
+
+@media only screen and (max-width: 480px){
+    .movie-app> .row{
+        overflow-y: visible;
+    }  
+    
+    .overlay{
+        font-size: 10px;
+        line-height: 15px;
+        line-break: none;
+        text-align: center;
+    }
+
+    .fav{
+       display: none;
+    }
+
+    .right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .remove{
+        right: 45%;
+        top: 17%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 960px){
+    .movie-app> .row{
+        overflow-y: visible;
+    }  
+    
+   
+
+    .fav{
+       display: none;
+    }
+
+    .right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Rem{
+        display: none;
+    }
+    .remove{
+        right: 45%;
+        top: 17%;
+    }
+}
+
+
+@media only screen and (max-width: 1330px){
+    .fav{
+        display: none;
+    }
+
+    .right{
+        right: 45%;
+        top: 17%;
+    }
+    .Rem{
+        display: none;
+    }
+
+    .remove{
+        right: 45%;
+        top: 17%;
+    }
 }

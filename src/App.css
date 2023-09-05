@@ -20,6 +20,8 @@
 .black{
   background-color: black;
   padding: 1em 2em;
+  
+  /* margin-top: -3em; */
   /* color: white; */
 }
 .white{
@@ -32,6 +34,13 @@
   font-weight: bold;
 }
 
+.favtext{
+  color: white!important;
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 1em !important;
+  font-weight: bold;
+  text-align: left !important;
+}
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
@@ -52,8 +61,20 @@
 	width: 100%;
 	transition: 0.5s ease;
 	opacity: 0;
-	bottom: 7;
+	bottom: 10%;
 	font-size: 20px;
 	padding: 20px;
 	text-align: center;
+}
+
+
+.right{
+  right: 22%;
+  top: 20%;
+}
+
+.remove{
+  left: 95%;
+  top: 20%;
+  border: 1px solid white;
 }
