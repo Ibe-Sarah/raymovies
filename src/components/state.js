@@ -7,6 +7,8 @@ import AddFavourite from './AddToFavourites';
 import FavList from './FavList';
 import FavListHeading from './FavListHeading';
 
+
+
 const State = () => {
 	const [movies, setMovies] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
