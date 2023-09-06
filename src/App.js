@@ -3,7 +3,7 @@ import { Button } from 'flowbite-react';
 
 import './App.css';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -15,16 +15,20 @@ function App() {
   return (
     <div className="">
     <div className="">
-     <BrowserRouter>
+     <HashRouter>
         <Routes>
+        <Route path="/" element={<LoginPage/>} />
             <Route path="/raymovies" element={<LoginPage/>} />
             <Route path="/signup" element={<SignupPage/>} />
             <Route path="/state" element={<State/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   </div>
   );
 }
+
+
+// used hashrouter instead of browserrouter to enable client-side routing to other pages other the homepage cos gh-pages doesn't support SPAs so there is a 404 page when refreshing page
 
 export default App;
