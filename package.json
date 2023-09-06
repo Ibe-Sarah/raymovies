@@ -1,7 +1,7 @@
 {
   "name": "movie-app",
   "version": "0.1.0",
-  "homepage": "https://raymovies.vercel.app/",
+  "homepage": "https://Ibe-Sarah.github.io/raymovies",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
