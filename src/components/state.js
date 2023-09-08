@@ -146,14 +146,30 @@ const [hot, setHot]= useState([
 
 
 
-
-
 	const addFavouriteMovie = (movie) => {
-		
-		const newFavouriteList = [...favourites, movie];
-		setFavourites(newFavouriteList);
-	};
+		// Check if the movie is already in favorites
+		const isAlreadyFavorite = favourites.some((favMovie) => favMovie.imdbID === movie.imdbID);
+	  
+		if (!isAlreadyFavorite) {
+		  const newFavouriteList = [...favourites, movie];
+		  setFavourites(newFavouriteList);
+		  localStorage.setItem('favoriteMovies', JSON.stringify(newFavouriteList));
+		} else {
+		  alert('Movie is already in favorites');
+		}
+	  };
+	  
+	  const loadFavoriteMoviesFromLocalStorage = () => {
+		const storedFavorites = localStorage.getItem('favoriteMovies');
+		if (storedFavorites) {
+		  setFavourites(JSON.parse(storedFavorites));
+		}
+	  };
+	  
 
+
+
+	
 	const removeFavouriteMovie = (movie) => {
 		const newFavouriteList = favourites.filter(
 			(favourite) => favourite.imdbID !== movie.imdbID
@@ -166,7 +182,9 @@ const [hot, setHot]= useState([
 		getMovieRequest(searchValue);
 	}, [searchValue]);
 
-
+	useEffect(() => {
+		loadFavoriteMoviesFromLocalStorage();
+	  }, []);
 	
 	
 	return (
