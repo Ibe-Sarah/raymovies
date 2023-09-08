@@ -132,7 +132,7 @@ const [hot, setHot]= useState([
 
 	const getMovieRequest = async (searchValue) => {
 		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=a8be1f01`;
-		// use 'https' so the api can work boh on localhost and hosted platforms
+		// use 'https' so the api can work both on localhost and hosted platforms
 
 		const response = await fetch(url);
 		const responseJson = await response.json();
@@ -186,6 +186,7 @@ const [hot, setHot]= useState([
 		loadFavoriteMoviesFromLocalStorage();
 	  }, []);
 	
+	//   used to call loadFavoriteMoviesFromLocalStorage when the component initializes to load the favorites from local storage initially. The empty dependency array ([]) ensures that this effect runs only once when the component mounts. This way, your favorite movies will be loaded from local storage when the component first renders.
 	
 	return (
 		<div className=' movie-app black -mt-28 overflow-y-auto' >
