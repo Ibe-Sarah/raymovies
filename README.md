@@ -55,6 +55,8 @@ Explore other movies!
 ## Technologies Used
 **React**: JavaScript library for building user interfaces.
 
+**Firebase**: For sign-up and login authentication.
+
 **OMDb API**: Provides movie data.
 
 **Fetch**: Promise-based HTTP client for making API requests.
@@ -64,6 +66,8 @@ Explore other movies!
 **Tailwindcss**: For styling components.
 
 **React Icons**: For icons.
+
+
 
 
 ## Contributing
