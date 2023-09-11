@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+**RayMovies**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based Movie Search Web Application that allows users to search for movies and add them to their favourite list.
+It has a sign-up and a login feature which enable users have access to the application.
+It utilizes the Open Movie Database (OMDb) API to fetch movie data.
 
-## Available Scripts
+**Table of Contents**
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-In the project directory, you can run:
 
-### `npm start`
+## Demo
+![Raymovies](https://i.imgur.com/UTisKF0.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[check it out here](https://ibe-sarah.github.io/raymovies/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Search**: Easily search for movies by title.
 
-### `npm run build`
+**Responsive Design**: The application is fully responsive and works well on both desktop and mobile devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Scroll**: Navigate through the screen horizontally to see full search results.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Favourite-list**: Ability to select and unselect favourite movies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Error Handling**: Gracefully handle API errors and empty search results.
 
-### `npm run eject`
+## Installation
+Follow these steps to set up the project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone this repository to your local machine using git clone https://github.com/Ibe-Sarah/raymovies.git.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Navigate to the project directory: cd raymovies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install the required dependencies by running npm install.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the development server by running npm start.
 
-## Learn More
+Open your web browser and visit http://localhost:3000 to access the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
+Enter a movie title in the search bar and press "Enter" or click the search button.
 
-### Code Splitting
+Browse the search results and click on a movie to add to favourites.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Explore other movies!
 
-### Analyzing the Bundle Size
+## Technologies Used
+**React**: JavaScript library for building user interfaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**OMDb API**: Provides movie data.
 
-### Making a Progressive Web App
+**Fetch**: Promise-based HTTP client for making API requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**React Router**: For handling routing within the application.
 
-### Advanced Configuration
+**Tailwindcss**: For styling components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**React Icons**: For icons.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-### `npm run build` fails to minify
+Fork the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name.
+
+Make your changes and commit them: git commit -m 'Add new feature'.
+
+Push to your branch: git push origin feature/your-feature-name.
+
+Open a pull request on this repository with a clear description of your changes.
