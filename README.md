@@ -14,7 +14,7 @@ It utilizes the Open Movie Database (OMDb) API to fetch movie data.
 
 
 ## Demo
-![Raymovies](https://i.imgur.com/UTisKF0.png)
+![Raymovies](https://i.imgur.com/Sig93t0.png)
 
 [check it out here](https://ibe-sarah.github.io/raymovies/)
 
