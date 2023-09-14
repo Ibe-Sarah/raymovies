@@ -1,7 +1,7 @@
 **RayMovies**
 
 This is a React-based Movie Search Web Application that allows users to search for movies and add them to their favourite list.
-It has a sign-up and a login feature which enable users have access to the application.
+It has a sign-up, a log-in and a log-out feature which enable users have access to the application.
 It utilizes the Open Movie Database (OMDb) API to fetch movie data.
 
 **Table of Contents**
