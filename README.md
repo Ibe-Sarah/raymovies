@@ -20,6 +20,7 @@ It utilizes the Open Movie Database (OMDb) API to fetch movie data.
 
 
 ## Features
+**User Authentiation**: Sign-up and login to have access to the application. Log-out when neccessary.
 
 **Search**: Easily search for movies by title.
 
