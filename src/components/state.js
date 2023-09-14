@@ -7,6 +7,7 @@ import AddFavourite from './AddToFavourites';
 import FavList from './FavList';
 import FavListHeading from './FavListHeading';
 import Hotpicks from './hotpicks';
+import LogoutButton from './logout';
 
 
 
@@ -192,10 +193,13 @@ const [hot, setHot]= useState([
 		<div className=' movie-app black -mt-28 overflow-y-auto' >
 
 			{/* search movies */}
-            <div className=' flex row search justify-center'>
+			<div className='flex gap-8 justify-center'>
+            <div className=' flex flex-col sm:flex-row md:flex-row  row search justify-center'>
             <MovieListHeading heading='RayMovies' className='text' />
 			<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
-            </div>
+			 </div>
+			 <LogoutButton/>
+			 </div>
             <div className='flex gap-4 row mt-8'>
             <MovieList movies={movies} handleFavouritesClick={addFavouriteMovie} />
             

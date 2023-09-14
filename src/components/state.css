@@ -30,6 +30,11 @@ body {
         overflow-y: visible;
     }  
     
+    .search{
+        gap: 2em;
+        /* padding-bottom: 1em; */
+        padding-top: 1em;
+    }
     .overlay{
         font-size: 10px;
         line-height: 15px;
@@ -62,8 +67,16 @@ body {
         overflow-y: visible;
     }  
     
-   
-
+    .search{
+        gap: 2em;
+        /* padding-bottom: 1em; */
+        padding-top: 1em;
+    }
+/* .sign-out{
+    width: 30%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+} */
     .fav{
        display: none;
     }
